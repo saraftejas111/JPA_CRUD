@@ -25,7 +25,7 @@ public class EmployeeController {
 		this.es = es;
 	}
 
-	@GetMapping("show-all")
+	@GetMapping("show-all-url")
 	public List<Employee> findAll() {
 		return es.findAll();
 
